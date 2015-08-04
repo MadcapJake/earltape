@@ -1,6 +1,6 @@
 {
   "name": "earltape",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Run tape tests written in Earl Grey",
   "main": "index.js",
   "bin": "./bin/earltape",

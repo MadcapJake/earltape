@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require('earlgrey/register');
+require('tape/bin/tape');

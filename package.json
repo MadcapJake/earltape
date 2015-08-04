@@ -1,0 +1,31 @@
+{
+  "name": "earltape",
+  "version": "0.0.0",
+  "description": "Run tape tests written in Earl Grey",
+  "main": "index.js",
+  "bin": "./bin/earltape",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madcapjake/earltape.git"
+  },
+  "keywords:": [
+    "earlgrey",
+    "tape",
+    "tap",
+    "testing",
+    "tests",
+    "test"
+  ],
+  "author": "Jake Russo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madcapjake/earltape/issues"
+  },
+  "dependencies": {
+    "earlgrey": "0.0.10",
+    "tape": "^4.0.2"
+  }
+}

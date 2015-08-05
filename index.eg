@@ -1,0 +1,14 @@
+require: tape
+
+;;module.exports = tape
+
+provide: test
+
+macro{tape} test(`{^name, ^body}`) =
+   let test = @deps.tape
+   let it = @env.mark(`@`)
+   ```
+   [^test](^name) with t ->
+      let ^it = t
+      ^body
+   ```

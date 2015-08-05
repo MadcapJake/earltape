@@ -2,10 +2,10 @@
   "name": "earltape",
   "version": "0.1.0",
   "description": "Run tape tests written in Earl Grey",
-  "main": "index.js",
+  "main": "index.eg",
   "bin": "./bin/earltape",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./bin/earltape test/*.eg"
   },
   "repository": {
     "type": "git",

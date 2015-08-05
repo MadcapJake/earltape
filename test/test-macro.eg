@@ -1,0 +1,10 @@
+require-macros:
+   "../index" -> test
+
+test "timing test":
+  @plan(2)
+  @equal(typeof(Date.now), 'function')
+  start = Date.now()
+
+  setTimeout(cb, 100) where cb = ->
+    @equal(Date.now() - start, 100)
